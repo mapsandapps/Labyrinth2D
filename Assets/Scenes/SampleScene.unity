@@ -453,41 +453,44 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 393835410430701078, guid: f3cc302fed1ed4d26ba646aa822f5839,
-        type: 3}
-      propertyPath: waypoints.Array.data[0]
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 393835410430701078, guid: f3cc302fed1ed4d26ba646aa822f5839,
-        type: 3}
-      propertyPath: waypoints.Array.data[1]
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 393835410430701078, guid: f3cc302fed1ed4d26ba646aa822f5839,
-        type: 3}
-      propertyPath: waypoints.Array.data[2]
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 393835410430701078, guid: f3cc302fed1ed4d26ba646aa822f5839,
-        type: 3}
-      propertyPath: waypoints.Array.data[3]
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 393835410430701078, guid: f3cc302fed1ed4d26ba646aa822f5839,
-        type: 3}
-      propertyPath: moveSpeed
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 393835410430701078, guid: f3cc302fed1ed4d26ba646aa822f5839,
-        type: 3}
-      propertyPath: levelConfig
-      value: 
-      objectReference: {fileID: 11400000, guid: 605cad82ad7da4fdbb67542bd1add2e6,
-        type: 2}
     - target: {fileID: 5923849528609131832, guid: f3cc302fed1ed4d26ba646aa822f5839,
         type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 5923849528609131832, guid: f3cc302fed1ed4d26ba646aa822f5839,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: waypoints.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: waypoints.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: waypoints.Array.data[2]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: waypoints.Array.data[3]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: moveSpeed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: levelConfig
+      value: 
+      objectReference: {fileID: 11400000, guid: 605cad82ad7da4fdbb67542bd1add2e6,
+        type: 2}
+    - target: {fileID: 0}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5923849528609131838, guid: f3cc302fed1ed4d26ba646aa822f5839,
         type: 3}
@@ -544,7 +547,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 7405457568099801499, guid: f3cc302fed1ed4d26ba646aa822f5839,
+        type: 3}
+      propertyPath: levelConfig
+      value: 
+      objectReference: {fileID: 11400000, guid: 605cad82ad7da4fdbb67542bd1add2e6,
+        type: 2}
+    - target: {fileID: 7405457568099801499, guid: f3cc302fed1ed4d26ba646aa822f5839,
+        type: 3}
+      propertyPath: moveSpeed
+      value: 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 0}
+    - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: f3cc302fed1ed4d26ba646aa822f5839, type: 3}
 --- !u!1001 &7879461535629206844
 PrefabInstance:
